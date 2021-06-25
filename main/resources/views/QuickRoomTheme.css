@@ -1,0 +1,27 @@
+.background {
+	-fx-background-color: #FAFAFA;
+}
+
+.label {
+    -fx-font-size: 36pt;
+    -fx-font-family: Century Gothic;
+    -fx-text-fill: #2f3640;
+}
+
+.button {
+	-fx-background-color: #BBC9DD;
+	-fx-text-fill: white;
+	-fx-font-family: Century Gothic;
+	-fx-font-size: 20;
+	-fx-background-radius: 16;
+	-fx-background-insets: 5;
+}
+
+.button:hover {
+	-fx-background-color: black;
+}
+
+.button:pressed {
+	-fx-background-color: #F1F6FB;
+	-fx-text-fill: black;
+}

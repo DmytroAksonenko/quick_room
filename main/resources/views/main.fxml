@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" styleClass="background" stylesheets="@QuickRoomTheme.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aksonenko.messenger.controllers.MainUIController">
+   <children>
+      <Label layoutX="210.0" layoutY="65.0" prefHeight="49.0" prefWidth="107.0" stylesheets="@QuickRoomTheme.css" text="Quick Room" AnchorPane.bottomAnchor="385.0" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="210.0" AnchorPane.topAnchor="65.0" />
+      <Button fx:id="createARoomButton" alignment="CENTER" layoutX="240.0" layoutY="206.0" mnemonicParsing="false" stylesheets="@QuickRoomTheme.css" text="Create a Room" textAlignment="JUSTIFY" AnchorPane.bottomAnchor="254.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="240.0" AnchorPane.topAnchor="206.0" />
+      <Button fx:id="joinAnExistingButton" alignment="CENTER" layoutX="240.0" layoutY="277.0" mnemonicParsing="false" stylesheets="@QuickRoomTheme.css" text="Join an Existing" textAlignment="JUSTIFY" AnchorPane.bottomAnchor="183.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="240.0" AnchorPane.topAnchor="277.0" />
+   </children>
+</AnchorPane>
