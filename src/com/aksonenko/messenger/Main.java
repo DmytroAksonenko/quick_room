@@ -17,6 +17,7 @@ public class Main extends Application {
 
 			stage.setTitle("Quick Room");
 			stage.setScene(new Scene(content, 700, 500));
+			stage.setResizable(false);
 			stage.show();
 		} catch (Exception e) {
 			e.printStackTrace();
