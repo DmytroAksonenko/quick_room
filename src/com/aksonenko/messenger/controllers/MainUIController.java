@@ -6,6 +6,7 @@ import com.aksonenko.messenger.service.SceneService;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
+//The main controller is responsible for starting the server.
 public class MainUIController {
 	
 	private Thread thread;

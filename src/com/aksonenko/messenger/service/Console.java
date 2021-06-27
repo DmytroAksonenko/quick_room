@@ -6,6 +6,7 @@ import java.io.OutputStream;
 import javafx.application.Platform;
 import javafx.scene.control.TextArea;
 
+//This class is used to create console in JavaFX TextArea
 public class Console extends OutputStream {
 	private TextArea textArea;
 

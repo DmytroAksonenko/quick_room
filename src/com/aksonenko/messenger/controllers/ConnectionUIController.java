@@ -7,6 +7,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
+//This controller is responsible for the user filling in the fields required to create the connection.
 public class ConnectionUIController {
 
 	private static TCPConnection connection;

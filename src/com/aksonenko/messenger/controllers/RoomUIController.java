@@ -14,6 +14,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
+//This controller is responsible for connecting the client to the server, inputting and outputting messages. 
 public class RoomUIController {
 
 	private TCPConnection connection;
@@ -48,7 +49,7 @@ public class RoomUIController {
 		port = ConnectionUIController.getPort();
 		nickname = ConnectionUIController.getNickname();
 
-		Client client = new Client(connection, ip, port, nickname);
+		new Client(connection, ip, port, nickname);
 
 		connection = Client.getConnection();
 

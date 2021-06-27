@@ -8,6 +8,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
+//This class automates the creation of additional Stage objects
 public class SceneService {
 	
 	public void openScene(Button button, String path) {

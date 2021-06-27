@@ -8,6 +8,7 @@ import java.io.OutputStreamWriter;
 import java.net.Socket;
 import java.nio.charset.Charset;
 
+//This class creates the TCP connection required for the client and server to work.
 public class TCPConnection {
 
 	private final Socket socket;

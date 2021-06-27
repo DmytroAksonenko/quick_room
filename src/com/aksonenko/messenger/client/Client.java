@@ -2,11 +2,10 @@ package com.aksonenko.messenger.client;
 
 import java.io.IOException;
 
-import javax.swing.SwingUtilities;
-
 import com.aksonenko.messenger.network.TCPConnection;
 import com.aksonenko.messenger.network.TCPConnectionObserver;
 
+//Socket client implementation.
 public class Client implements TCPConnectionObserver {
 
 	private static TCPConnection connection;
@@ -52,14 +51,8 @@ public class Client implements TCPConnectionObserver {
 
 	public synchronized static void printMessage(String message) {
 
-		SwingUtilities.invokeLater(new Runnable() {
-
-			public void run() {
-//				System.out.append("Client Observer: " + message + "\r\n");
-				System.out.append(message + "\r\n");
-			}
-
-		});
+//		System.out.append("Client Observer: " + message + "\r\n");
+		System.out.append(message + "\r\n");
 
 	}
 

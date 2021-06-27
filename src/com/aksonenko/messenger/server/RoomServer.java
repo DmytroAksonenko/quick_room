@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import com.aksonenko.messenger.network.TCPConnection;
 import com.aksonenko.messenger.network.TCPConnectionObserver;
 
+//Server with Java Sockets. The server starts first and waits for incoming connections
 public class RoomServer implements TCPConnectionObserver{
 	
 	private final ArrayList<TCPConnection> connections = new ArrayList<>();
